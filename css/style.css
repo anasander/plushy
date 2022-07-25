@@ -1,5 +1,7 @@
 /* Diretrizes gerais do site */
 @import "/css/global.css";
+@import "/css/tipografia.css";
+@import "/css/cores.css";
 
 /* Utilitários site (botões, etc)*/
 @import "/css/componentes.css";
