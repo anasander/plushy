@@ -1,0 +1,11 @@
+/* Diretrizes gerais do site */
+@import "/css/global.css";
+
+/* Utilitários site (botões, etc)*/
+@import "/css/componentes.css";
+
+/* Cabeçalho */
+@import "/css/header.css";
+
+/* Home */
+@import "/css/introducao.css";
