@@ -1,3 +1,4 @@
+/* BOTÃO */
 .botao {
   color: #10044d;
   font-size: 1.25rem;
@@ -17,5 +18,75 @@
   .botao {
     font-size: 1rem;
     padding: 12px 24px;
+  }
+}
+
+/* SEÇÃO DE BUSCA */
+.busca-fundo {
+  background-color: var(--cor-3);
+}
+
+.busca-bg {
+  height: 80px;
+  background-color: var(--cor-12);
+  overflow: hidden;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.busca {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 13px auto;
+  background-color: var(--cor-1);
+  padding: 6px 12px;
+  border: none;
+  border-radius: 32px;
+  width: 600px;
+}
+
+.busca input[type="search"] {
+  background-color: var(--cor-1);
+  border: none;
+  font-size: 16px;
+  padding: 12px 24px;
+  width: 550px;
+  outline: none;
+}
+
+.busca button[type="submit"] {
+  padding: 0;
+  width: 32px;
+  height: 24px;
+  border: none;
+  background: url(/img-icone/icone-cinza/busca.svg) no-repeat center;
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .busca {
+    width: 480px;
+  }
+  .busca input[type="search"] {
+    width: 430px;
+  }
+}
+
+@media (max-width: 550px) {
+  .busca {
+    width: 320px;
+  }
+  .busca input[type="search"] {
+    width: 270px;
+  }
+}
+
+@media (max-width: 360px) {
+  .busca {
+    width: 240px;
+  }
+  .busca input[type="search"] {
+    width: 190px;
   }
 }

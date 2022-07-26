@@ -1,6 +1,11 @@
+.introducao-fundo {
+  background-color: var(--cor-12);
+}
+
 .introducao-bg {
-  background-color: #f2aae0;
+  background-color: var(--cor-5);
   border-radius: 0px 0px 20px 20px;
+  box-shadow: 0 10px 0 1 blue;
 }
 
 .introducao {
@@ -17,7 +22,6 @@
 }
 
 .introducao img {
-  display: block;
   padding-bottom: 80px;
 }
 

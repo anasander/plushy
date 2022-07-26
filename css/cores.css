@@ -1,7 +1,56 @@
-.roxo-titulo {
-  color: #3d158c;
+:root {
+  --cor-12: #10044d;
+  --cor-11: #3d158c;
+  --cor-10: #6321a6;
+  --cor-9: #9339bf;
+  --cor-8: #c357d9;
+  --cor-7: #e673e6;
+  --cor-6: #e68ae6;
+  --cor-5: #f2aae0;
+  --cor-4: #f2c2e2;
+  --cor-3: #ffe6f7;
+  --cor-2: #fff2f9;
+  --cor-1: #fffcfd;
+  --cor-c: #bfbfbf;
 }
 
-.roxo-subtitulo {
-  color: #6321a6;
+.cor-12 {
+  color: var(--cor-12);
+}
+.cor-11 {
+  color: var(--cor-11);
+}
+.cor-10 {
+  color: var(--cor-10);
+}
+.cor-9 {
+  color: var(--cor-9);
+}
+.cor-8 {
+  color: var(--cor-8);
+}
+.cor-7 {
+  color: var(--cor-7);
+}
+.cor-6 {
+  color: var(--cor-6);
+}
+.cor-5 {
+  color: var(--cor-5);
+}
+.cor-4 {
+  color: var(--cor-4);
+}
+.cor-3 {
+  color: var(--cor-3);
+}
+.cor-2 {
+  color: var(--cor-2);
+}
+.cor-1 {
+  color: var(--cor-1);
+}
+
+.cor-c {
+  color: #bfbfbf;
 }
