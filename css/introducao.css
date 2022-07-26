@@ -5,7 +5,6 @@
 .introducao-bg {
   background-color: var(--cor-5);
   border-radius: 0px 0px 20px 20px;
-  box-shadow: 0 10px 0 1 blue;
 }
 
 .introducao {
