@@ -5,18 +5,18 @@
 
 .pelucias-home {
   box-sizing: border-box;
-  padding-top: 60px;
   padding-left: 40px;
   padding-right: 40px;
+  padding-top: 120px;
   padding-bottom: 120px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .pelucias-selecao {
   display: flex;
-  flex-wrap: wrap;
   gap: 40px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: center;
 }
 
@@ -28,25 +28,29 @@
   border-radius: 20px;
 }
 
+.pelucias-home-quadrado a {
+  display: block;
+}
+
 .pelucias-home-quadrado img {
   max-width: 80%;
   display: block;
   padding: 40px 40px 32px 40px;
-  border-radius: 20px;
+  border-radius: 14%;
 }
 
 .pelucias-home h2 {
   max-width: 1200px;
+  box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 40px;
 }
 
 .produto-preco {
-  color: var(--cor-12);
   padding: 0px 40px;
 }
 
 .produto-valor {
-  color: var(--cor-9);
   padding: 0px 0px 40px 40px;
 }

@@ -1,8 +1,7 @@
 /* BOTÃO */
 .botao {
-  color: #10044d;
-  font-size: 1.25rem;
-  font-weight: 600;
+  color: var(--cor-12);
+  font: 600 1.25rem/1.25 "Roboto";
   text-transform: uppercase;
   background: linear-gradient(#c357d9, #913dbe);
   box-shadow: 0px 2px 2px 0px hsba(0, 0%, 0%, 0.1);
