@@ -14,6 +14,7 @@
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 40px;
+  padding-left: 20px;
 }
 
 .pelucias-selecao {
@@ -24,7 +25,6 @@
   padding: 0 20px;
   max-width: 1400px;
   overflow-x: auto;
-  /* justify-content: center; */
 }
 
 .pelucias-home-quadrado {
@@ -63,8 +63,5 @@
     box-sizing: border-box;
     padding-top: 60px;
     padding-bottom: 60px;
-  }
-  .pelucias-home h2 {
-    padding-left: 20px;
   }
 }
