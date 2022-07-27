@@ -5,27 +5,39 @@
 
 .pelucias-home {
   box-sizing: border-box;
-  padding-left: 40px;
-  padding-right: 40px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.pelucias-selecao {
-  display: flex;
-  gap: 40px;
-  max-width: 1400px;
+.pelucias-home h2 {
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.pelucias-selecao {
+  display: flex;
+  flex-wrap: w;
+  gap: 40px;
+  margin: auto;
+  padding: 0 20px;
+  max-width: 1400px;
+  overflow-x: auto;
+  /* justify-content: center; */
 }
 
 .pelucias-home-quadrado {
-  height: 500px;
-  width: 420px;
+  flex: 1;
+  min-width: 320px;
+  max-width: 340px;
   background-color: var(--cor-4);
   border: solid 4px var(--cor-5);
   border-radius: 20px;
+}
+
+.pelucias-home-quadrado:hover {
+  opacity: 90%;
 }
 
 .pelucias-home-quadrado a {
@@ -33,18 +45,9 @@
 }
 
 .pelucias-home-quadrado img {
-  max-width: 80%;
-  display: block;
+  max-width: 75%;
   padding: 40px 40px 32px 40px;
-  border-radius: 14%;
-}
-
-.pelucias-home h2 {
-  max-width: 1200px;
-  box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 40px;
+  border-radius: 18%;
 }
 
 .produto-preco {
@@ -53,4 +56,15 @@
 
 .produto-valor {
   padding: 0px 0px 40px 40px;
+}
+
+@media (max-width: 1200px) {
+  .pelucias-home {
+    box-sizing: border-box;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .pelucias-home h2 {
+    padding-left: 20px;
+  }
 }
