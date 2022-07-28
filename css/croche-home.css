@@ -1,17 +1,17 @@
-.pelucias-home {
+.croche-home {
   box-sizing: border-box;
-  padding-top: 120px;
+  padding-top: 100px;
   padding-bottom: 120px;
 }
 
-.pelucias-home h2 {
+.croche-home h2 {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 40px;
 }
 
-.pelucias-selecao {
+.croche-selecao {
   display: flex;
   gap: 40px;
   margin: auto;
@@ -20,7 +20,7 @@
   overflow-x: auto;
 }
 
-.pelucias-home-quadrado {
+.croche-home-quadrado {
   flex: 1;
   min-width: 320px;
   max-width: 340px;
@@ -29,15 +29,15 @@
   border-radius: 20px;
 }
 
-.pelucias-home-quadrado:hover {
+.croche-home-quadrado:hover {
   opacity: 90%;
 }
 
-.pelucias-home-quadrado a {
+.croche-home-quadrado a {
   display: block;
 }
 
-.pelucias-home-quadrado img {
+.croche-home-quadrado img {
   max-width: 75%;
   padding: 40px 40px 32px 40px;
   border-radius: 18%;
@@ -52,14 +52,14 @@
 }
 
 @media (max-width: 1250px) {
-  .pelucias-home h2 {
+  .croche-home h2 {
     padding-left: 32px;
     padding-right: 32px;
   }
 }
 
 @media (max-width: 1200px) {
-  .pelucias-home {
+  .croche-home {
     box-sizing: border-box;
     padding-top: 60px;
     padding-bottom: 60px;

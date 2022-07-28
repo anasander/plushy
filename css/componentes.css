@@ -29,10 +29,6 @@
 }
 
 /* SEÇÃO DE BUSCA */
-.busca-fundo {
-  background-color: var(--cor-3);
-}
-
 .busca-bg {
   height: 80px;
   background-color: var(--cor-12);
