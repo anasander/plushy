@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   border-radius: 20px;
+  margin-bottom: 120px;
 }
 
 .depoimento img {
@@ -62,6 +63,9 @@
 }
 
 @media (max-width: 1200px) {
+  .depoimento {
+    margin-bottom: 60px;
+  }
   .depoimento-conteudo {
     padding: 48px 40px 40px 60px;
   }
