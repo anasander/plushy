@@ -30,7 +30,7 @@
   position: relative;
 }
 
-.introducao-conteudo h1:after {
+.introducao-conteudo h1::after {
   content: "";
   height: 68px;
   width: 68px;
@@ -45,7 +45,7 @@
 }
 
 @media (max-width: 1300px) {
-  .introducao-conteudo h1:after {
+  .introducao-conteudo h1::after {
     display: none;
   }
 }
