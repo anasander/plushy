@@ -1,18 +1,21 @@
-/* Diretrizes gerais do site */
+/* DIRETRIZES GERAIS DO SITE */
 @import "/css/global.css";
 @import "/css/tipografia.css";
 @import "/css/cores.css";
 
-/* Utilitários site (botões, etc)*/
+/* UTILITÁRIOS DO SITE (BOTÕES, ETC) */
 @import "/css/componentes.css";
 
-/* Cabeçalho */
+/* CABEÇALHO */
 @import "/css/header.css";
 
-/* Home */
+/* HOME */
 @import "/css/introducao.css";
 @import "/css/pelucias-home.css";
 @import "/css/detalhes-custom-home.css";
 @import "/css/croche-home.css";
 @import "/css/depoimento.css";
 @import "/css/footer.css";
+
+/* TERMOS E CONDIÇÕES */
+@import "/css/termos-condicoes.css";

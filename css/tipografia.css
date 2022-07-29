@@ -48,6 +48,21 @@
   font: 400 1.25rem/40px "Roboto";
 }
 
+.subtitulo-intro {
+  color: var(--cor-9);
+  font: 700 1.5rem/32px "Roboto";
+}
+
+.termos-titulo {
+  color: var(--cor-11);
+  font: 600 2rem/40px "Roboto";
+}
+
+.termos-subtitulo {
+  color: var(--cor-11);
+  font: 400 1.5rem/40px "Roboto";
+}
+
 @media (max-width: 1200px) {
   .titulo {
     font-size: 3rem;
@@ -68,11 +83,19 @@
     font-size: 1.25rem;
     line-height: 2.5rem;
   }
+  .termos-titulo {
+    font-size: 1.8rem;
+  }
+
+  .termos-subtitulo {
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 760px) {
   .titulo {
     font-size: 2.5rem;
+    line-height: 3rem;
   }
 }
 

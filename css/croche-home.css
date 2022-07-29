@@ -1,7 +1,6 @@
 .croche-home {
   box-sizing: border-box;
-  padding-top: 100px;
-  padding-bottom: 120px;
+  padding: 100px 32px 120px 32px;
 }
 
 .croche-home h2 {
@@ -15,7 +14,6 @@
   display: flex;
   gap: 40px;
   margin: auto;
-  padding: 0 32px;
   max-width: 1400px;
   overflow-x: auto;
 }
@@ -49,13 +47,6 @@
 
 .produto-valor {
   padding: 0px 0px 40px 40px;
-}
-
-@media (max-width: 1250px) {
-  .croche-home h2 {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
 }
 
 @media (max-width: 1200px) {

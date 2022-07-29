@@ -2,6 +2,8 @@
 .container {
   box-sizing: border-box;
   max-width: 1200px;
+  padding-left: 32px;
+  padding-right: 32px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -91,5 +93,31 @@
   }
   .busca input[type="search"] {
     width: 190px;
+  }
+}
+
+/* TITULO-INTRO */
+.titulo-intro-bg {
+  background-color: var(--cor-4);
+  border-radius: 0px 0px 20px 20px;
+}
+
+.titulo-intro {
+  padding: 60px 32px;
+}
+
+.titulo-intro p {
+  padding-bottom: 8px;
+}
+
+@media (max-width: 760px) {
+  .titulo-intro {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .titulo-intro p {
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 0px;
   }
 }

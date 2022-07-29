@@ -6,8 +6,7 @@
 .footer {
   display: grid;
   grid-template-columns: 4fr 5fr 3fr;
-  padding-top: 120px;
-  padding-bottom: 40px;
+  padding: 120px 32px 40px 32px;
   gap: 40px;
 }
 
@@ -64,10 +63,6 @@
 }
 
 @media (max-width: 1250px) {
-  .footer {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
   .footer-informacoes ul::after {
     display: none;
   }
