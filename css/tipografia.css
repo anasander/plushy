@@ -18,6 +18,11 @@
   font: 600 1.8rem/32px "Roboto";
 }
 
+.preco-descricao {
+  color: var(--cor-11);
+  font: 400 1.2rem/32px "Roboto";
+}
+
 .preco-valor {
   color: var(--cor-9);
   font: 400 1.2rem/32px "Roboto";

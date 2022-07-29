@@ -6,7 +6,8 @@
 .footer {
   display: grid;
   grid-template-columns: 4fr 5fr 3fr;
-  padding: 120px 32px 40px 32px;
+  padding-top: 120px;
+  padding-bottom: 40px;
   gap: 40px;
 }
 

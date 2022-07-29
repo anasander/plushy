@@ -8,7 +8,8 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 32px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header-menu {
