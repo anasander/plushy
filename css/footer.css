@@ -11,6 +11,11 @@
   gap: 40px;
 }
 
+.footer-logo {
+  max-width: 100px;
+  max-height: 50px;
+}
+
 .footer a:hover {
   color: var(--cor-1);
 }

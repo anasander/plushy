@@ -97,6 +97,20 @@
   }
 }
 
+@media (max-width: 830px) {
+  .preco-titulo {
+    font-size: 1.4rem;
+  }
+
+  .preco-descricao {
+    font-size: 1rem;
+  }
+
+  .preco-valor {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 760px) {
   .titulo {
     font-size: 2.5rem;

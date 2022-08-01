@@ -3,19 +3,26 @@
   margin-bottom: 120px;
 }
 
+.pelucias-item-fundo {
+  background: linear-gradient(to right, var(--cor-3) 30%, var(--cor-4) 0%);
+}
+
 .pelucias-item-bg {
-  background-color: var(--cor-4);
+  background: linear-gradient(to right, var(--cor-3) 30%, var(--cor-4) 0%);
   margin-bottom: 120px;
-  border: solid 4px var(--cor-5);
+  /* border: solid 4px;
+  border-image: linear-gradient(to right, var(--cor-3) 30%, var(--cor-5) 0%) 1;
   border-left: none;
-  border-right: none;
+  border-right: none; */
+  box-shadow: inset 0 32px var(--cor-3), inset 0 -32px var(--cor-3);
 }
 
 .pelucias-item-bg:nth-child(even) {
-  background-color: var(--cor-6);
-  border: solid 4px var(--cor-7);
+  background: linear-gradient(to left, var(--cor-3) 30%, var(--cor-6) 0%);
+  /* border: solid 4px;
+  border-image: linear-gradient(to left, var(--cor-3) 30%, var(--cor-7) 0%) 1;
   border-left: none;
-  border-right: none;
+  border-right: none; */
 }
 
 .pelucias-item {
@@ -33,8 +40,8 @@
 }
 
 .pelucias-conteudo {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 72px;
+  margin-bottom: 72px;
 }
 
 .pelucias-item-2 {
@@ -56,6 +63,7 @@
   width: 100%;
   height: 100%;
   margin: 0 auto;
+  border-radius: 4%;
 }
 
 .pelucias-botao {
@@ -89,4 +97,63 @@
 
 .pelucias-link:hover::after {
   width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .pelucias {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 930px) {
+  .pelucias-item-bg {
+    box-shadow: none;
+    background: var(--cor-4);
+    margin-bottom: 60px;
+    border-radius: 20px;
+  }
+  .pelucias-item-bg:nth-child(even) {
+    box-shadow: none;
+    background: var(--cor-6);
+  }
+  .pelucias-item,
+  .pelucias-item-2 {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 760px) {
+  .pelucias-conteudo {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .pelucias-item p,
+  .pelucias-item-2 p {
+    padding-bottom: 32px;
+  }
+
+  .pelucias-item .preco-valor {
+    padding-bottom: 20px;
+  }
+  .pelucias-item-2 .preco-valor {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .pelucias-item,
+  .pelucias-item-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .pelucias-item-2 .pelucias-imagem {
+    order: -1;
+  }
+  .pelucias-imagem img {
+    padding-top: 32px;
+    max-height: 300px;
+    border-radius: 8%;
+  }
 }
