@@ -25,6 +25,34 @@
   border-right: none; */
 }
 
+.pelucias-decoracao-1 {
+  position: relative;
+}
+
+.pelucias-decoracao-1::after {
+  content: "";
+  height: 68px;
+  width: 68px;
+  background-image: url(/img-icone/bolinhas/bolinha4.svg);
+  position: absolute;
+  right: -10px;
+  top: -100px;
+}
+
+.pelucias-decoracao-2 {
+  position: relative;
+}
+
+.pelucias-decoracao-2::after {
+  content: "";
+  height: 68px;
+  width: 68px;
+  background-image: url(/img-icone/bolinhas/bolinha2.svg);
+  position: absolute;
+  right: -10px;
+  top: -100px;
+}
+
 .pelucias-item {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -121,6 +149,12 @@
   .pelucias-item-2 {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+  }
+  .pelucias-decoracao-1::after {
+    display: none;
+  }
+  .pelucias-decoracao-2::after {
+    display: none;
   }
 }
 

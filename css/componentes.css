@@ -108,6 +108,17 @@
 
 .titulo-intro p {
   padding-bottom: 8px;
+  position: relative;
+}
+
+.titulo-intro p::after {
+  content: "";
+  height: 68px;
+  width: 68px;
+  background-image: url(/img-icone/bolinhas/bolinha-intro.svg);
+  position: absolute;
+  right: -10px;
+  top: -10px;
 }
 
 @media (max-width: 760px) {
@@ -119,5 +130,8 @@
     font-size: 1rem;
     font-weight: 500;
     padding-bottom: 0px;
+  }
+  .titulo-intro p::after {
+    display: none;
   }
 }
