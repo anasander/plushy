@@ -30,6 +30,13 @@
   }
 }
 
+@media (max-width: 390px) {
+  .botao {
+    font-size: 0.8rem;
+    padding: 10px 20px;
+  }
+}
+
 /* SEÇÃO DE BUSCA */
 .busca-bg {
   height: 80px;

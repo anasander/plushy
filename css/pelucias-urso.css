@@ -1,0 +1,128 @@
+.pelucia-bg {
+  background-color: var(--cor-4);
+  margin-top: 120px;
+  margin-bottom: -100px;
+  border-radius: 20px;
+  border: solid 4px var(--cor-5);
+}
+
+.pelucia-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.pelucia-imagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pelucia-imagens img {
+  flex: 1;
+  min-width: 100px;
+  border-radius: 4%;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.1));
+}
+
+.pelucia-imagens img:first-child {
+  min-width: 100%;
+}
+
+.pelucia-texto {
+  max-width: 60ch;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-right: 8px;
+}
+
+.pelucia-desc-1 {
+  padding-bottom: 32px;
+}
+
+.pelucia-desc-1 span {
+  font-weight: 600;
+}
+
+.pelucia-botao {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.pelucia-extra {
+  display: flex;
+  align-content: end;
+  justify-content: end;
+  margin-bottom: 120px;
+}
+
+.pelucia-extra-bg {
+  background-color: var(--cor-5);
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 120px;
+  border-radius: 20px 0 0 20px;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.1));
+}
+
+.pelucia-extra h3 {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.pelucia-extra p {
+  max-width: 35ch;
+  text-decoration: underline;
+  position: relative;
+}
+
+.pelucia-extra p::after {
+  content: "";
+  width: 68px;
+  height: 68px;
+  background-image: url(/img-icone/bolinhas/bolinha5.svg);
+  position: absolute;
+  right: -80px;
+  bottom: 1px;
+}
+
+@media (max-width: 1232px) {
+  .pelucia-bg {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
+
+@media (max-width: 1110px) {
+  .pelucia-extra {
+    display: none;
+  }
+  .pelucia-bg {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .pelucia-conteudo {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: start;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .pelucia-imagens {
+    grid-row: 2;
+  }
+}
+
+@media (max-width: 760px) {
+  .pelucia-bg {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
