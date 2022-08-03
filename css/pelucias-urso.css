@@ -126,3 +126,10 @@
     margin-bottom: 60px;
   }
 }
+
+@media (max-width: 390px) {
+  .pelucia-botao {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
