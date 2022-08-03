@@ -17,9 +17,15 @@
 @import "/css/depoimento.css";
 @import "/css/footer.css";
 
-/* TERMOS E CONDIÇÕES */
-@import "/css/termos-condicoes.css";
-
 /* PELÚCIAS */
 @import "/css/pelucias.css";
 @import "/css/pelucias-urso.css";
+
+/* CONTATO */
+@import "/css/contato.css";
+
+/* FORMULÁRIO */
+@import "/css/formulario.css";
+
+/* TERMOS E CONDIÇÕES */
+@import "/css/termos-condicoes.css";

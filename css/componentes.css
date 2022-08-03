@@ -17,6 +17,7 @@
   box-shadow: 0px 2px 2px 0px hsba(0, 0%, 0%, 0.1);
   border-radius: 10px;
   padding: 16px 32px;
+  border: none;
 }
 
 .botao:hover {

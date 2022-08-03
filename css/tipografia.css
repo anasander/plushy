@@ -68,6 +68,21 @@
   font: 400 1.5rem/40px "Roboto";
 }
 
+.contato-titulo {
+  color: var(--cor-11);
+  font: 600 1.5rem/40px "Grandstander";
+}
+
+.contato-descricao {
+  color: var(--cor-11);
+  font: 400 1.25rem/40px "Roboto";
+}
+
+.formulario-titulo {
+  color: var(--cor-11);
+  font: 500 1rem/40px "Roboto";
+}
+
 @media (max-width: 1200px) {
   .titulo {
     font-size: 3rem;
