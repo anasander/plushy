@@ -134,6 +134,13 @@
   .preco-valor {
     font-size: 1rem;
   }
+  .lojas-titulo {
+    font-size: 1.5rem;
+  }
+
+  .lojas-rodape {
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 760px) {

@@ -37,6 +37,27 @@
   box-shadow: 0 0 0 2px var(--cor-3);
 }
 
+.form button {
+  position: relative;
+}
+
+.form button::after {
+  content: "";
+  display: block;
+  height: 68px;
+  width: 68px;
+  background-image: url(/img-icone/bolinhas/bolinha6.svg);
+  position: absolute;
+  right: -270px;
+  bottom: -50px;
+}
+
+@media (max-width: 1150px) {
+  .form button::after {
+    display: none;
+  }
+}
+
 @media (max-width: 600px) {
   .form {
     grid-template-columns: 1fr;

@@ -50,6 +50,18 @@
 .contato-meios {
   margin-top: 32px;
   margin-bottom: 60px;
+  position: relative;
+}
+
+.contato-meios::after {
+  content: "";
+  display: block;
+  height: 68px;
+  width: 68px;
+  background-image: url(/img-icone/bolinhas/bolinha5.svg);
+  position: absolute;
+  right: -50px;
+  bottom: -220px;
 }
 
 .contato-meios a {
@@ -76,6 +88,12 @@
   background-color: var(--cor-2);
   padding: 80px;
   border-radius: 0 20px 20px 0;
+}
+
+@media (max-width: 1150px) {
+  .contato-meios::after {
+    display: none;
+  }
 }
 
 @media (max-width: 1000px) {
