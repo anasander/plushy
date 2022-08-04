@@ -1,0 +1,32 @@
+.lojas {
+  margin-bottom: 120px;
+}
+
+.lojas h2 {
+  margin-bottom: 60px;
+}
+
+.lojas-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.lojas-local {
+  background-color: var(--cor-2);
+  border-radius: 20px;
+}
+
+.lojas-local img {
+  border-radius: 4% 4% 0 0;
+}
+
+.lojas-texto {
+  padding: 40px;
+}
+
+.lojas-descricao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}

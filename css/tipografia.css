@@ -10,37 +10,37 @@
 
 .subtitulo {
   color: var(--cor-10);
-  font: 400 1.5rem/3.5rem "Roboto";
+  font: 400 1.5rem/3.5rem "Roboto", sans-serif;
 }
 
 .preco-titulo {
   color: var(--cor-12);
-  font: 600 1.8rem/32px "Roboto";
+  font: 600 1.8rem/32px "Roboto", sans-serif;
 }
 
 .preco-descricao {
   color: var(--cor-11);
-  font: 400 1.2rem/32px "Roboto";
+  font: 400 1.2rem/32px "Roboto", sans-serif;
 }
 
 .preco-valor {
   color: var(--cor-9);
-  font: 400 1.2rem/32px "Roboto";
+  font: 400 1.2rem/32px "Roboto", sans-serif;
 }
 
 .saiba-mais {
   color: var(--cor-11);
-  font: 700 2rem/32px "Roboto";
+  font: 700 2rem/32px "Roboto", sans-serif;
 }
 
 .depoimento-descricao {
   color: var(--cor-11);
-  font: 400 2rem/60px "Roboto";
+  font: 400 2rem/60px "Roboto", sans-serif;
 }
 
 .depoimento-nome {
   color: var(--cor-9);
-  font: 600 1.5rem/28px "Roboto";
+  font: 600 1.5rem/28px "Roboto", sans-serif;
 }
 
 .footer-titulo {
@@ -50,22 +50,22 @@
 
 .footer-descricao {
   color: var(--cor-4);
-  font: 400 1.25rem/40px "Roboto";
+  font: 400 1.25rem/40px "Roboto", sans-serif;
 }
 
 .subtitulo-intro {
   color: var(--cor-9);
-  font: 700 1.5rem/32px "Roboto";
+  font: 700 1.5rem/32px "Roboto", sans-serif;
 }
 
 .termos-titulo {
   color: var(--cor-11);
-  font: 600 2rem/40px "Roboto";
+  font: 600 2rem/40px "Roboto", sans-serif;
 }
 
 .termos-subtitulo {
   color: var(--cor-11);
-  font: 400 1.5rem/40px "Roboto";
+  font: 400 1.5rem/40px "Roboto" sans-serif;
 }
 
 .contato-titulo {
@@ -75,12 +75,22 @@
 
 .contato-descricao {
   color: var(--cor-11);
-  font: 400 1.25rem/40px "Roboto";
+  font: 400 1.25rem/40px "Roboto", sans-serif;
 }
 
 .formulario-titulo {
   color: var(--cor-11);
-  font: 500 1rem/40px "Roboto";
+  font: 500 1rem/40px "Roboto", sans-serif;
+}
+
+.lojas-titulo {
+  color: var(--cor-11);
+  font: 600 2rem/40px "Grandstander";
+}
+
+.lojas-rodape {
+  color: var(--cor-11);
+  font: 600 1rem/40px "Roboto", sans-serif;
 }
 
 @media (max-width: 1200px) {

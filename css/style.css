@@ -27,5 +27,8 @@
 /* FORMULÁRIO */
 @import "/css/formulario.css";
 
+/* LOJAS */
+@import "/css/lojas.css";
+
 /* TERMOS E CONDIÇÕES */
 @import "/css/termos-condicoes.css";

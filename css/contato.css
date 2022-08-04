@@ -78,7 +78,7 @@
   border-radius: 0 20px 20px 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .contato {
     grid-template-columns: 1fr;
     margin-bottom: 60px;
