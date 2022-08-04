@@ -64,6 +64,21 @@
   bottom: -220px;
 }
 
+.comissoes-materias {
+  position: relative;
+}
+
+.comissoes-materiais::after {
+  content: "";
+  display: block;
+  height: 68px;
+  width: 68px;
+  background-image: url(/img-icone/bolinhas/bolinha5.svg);
+  position: absolute;
+  left: 450px;
+  bottom: 30px;
+}
+
 .contato-meios a {
   display: block;
   max-width: max-content;
@@ -91,7 +106,8 @@
 }
 
 @media (max-width: 1150px) {
-  .contato-meios::after {
+  .contato-meios::after,
+  .comissoes-materiais::after {
     display: none;
   }
 }

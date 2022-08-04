@@ -93,6 +93,11 @@
   font: 600 1rem/40px "Roboto", sans-serif;
 }
 
+.comissao-titulo {
+  color: var(--cor-9);
+  font: 600 0.8rem/40px "Roboto", sans-serif;
+}
+
 @media (max-width: 1200px) {
   .titulo {
     font-size: 3rem;
