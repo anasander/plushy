@@ -40,7 +40,8 @@
 .form input[type="email"],
 .form textarea,
 .form input[type="file"],
-.form input[type="checkbox"] {
+.form input[type="checkbox"],
+.form select {
   font: 400 1rem/1.5 "Roboto", sans-serif;
   background-color: var(--cor-1);
   border: 2px solid var(--cor-3);
@@ -66,6 +67,11 @@
 
 .form input[type="file"] {
   cursor: pointer;
+}
+
+.form select {
+  height: 50px;
+  color: #767575;
 }
 
 .form input[type="checkbox"] {

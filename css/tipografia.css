@@ -10,37 +10,37 @@
 
 .subtitulo {
   color: var(--cor-10);
-  font: 400 1.5rem/3.5rem "Roboto", sans-serif;
+  font: 400 1.5rem/3.5rem "Roboto";
 }
 
 .preco-titulo {
   color: var(--cor-12);
-  font: 600 1.8rem/32px "Roboto", sans-serif;
+  font: 600 1.8rem/32px "Roboto";
 }
 
 .preco-descricao {
   color: var(--cor-11);
-  font: 400 1.2rem/32px "Roboto", sans-serif;
+  font: 400 1.2rem/32px "Roboto";
 }
 
 .preco-valor {
   color: var(--cor-9);
-  font: 400 1.2rem/32px "Roboto", sans-serif;
+  font: 400 1.2rem/32px "Roboto";
 }
 
 .saiba-mais {
   color: var(--cor-11);
-  font: 700 2rem/32px "Roboto", sans-serif;
+  font: 700 1.8rem/32px "Roboto";
 }
 
 .depoimento-descricao {
   color: var(--cor-11);
-  font: 400 2rem/60px "Roboto", sans-serif;
+  font: 400 2rem/60px "Roboto";
 }
 
 .depoimento-nome {
   color: var(--cor-9);
-  font: 600 1.5rem/28px "Roboto", sans-serif;
+  font: 600 1.5rem/28px "Roboto";
 }
 
 .footer-titulo {
@@ -50,22 +50,22 @@
 
 .footer-descricao {
   color: var(--cor-4);
-  font: 400 1.25rem/40px "Roboto", sans-serif;
+  font: 400 1.25rem/40px "Roboto";
 }
 
 .subtitulo-intro {
   color: var(--cor-9);
-  font: 700 1.5rem/32px "Roboto", sans-serif;
+  font: 700 1.5rem/32px "Roboto";
 }
 
 .termos-titulo {
   color: var(--cor-11);
-  font: 600 2rem/40px "Roboto", sans-serif;
+  font: 600 2rem/40px "Roboto";
 }
 
 .termos-subtitulo {
   color: var(--cor-11);
-  font: 400 1.5rem/40px "Roboto" sans-serif;
+  font: 400 1.5rem/40px "Roboto";
 }
 
 .contato-titulo {
@@ -75,12 +75,12 @@
 
 .contato-descricao {
   color: var(--cor-11);
-  font: 400 1.25rem/40px "Roboto", sans-serif;
+  font: 400 1.25rem/40px "Roboto";
 }
 
 .formulario-titulo {
   color: var(--cor-11);
-  font: 500 1rem/40px "Roboto", sans-serif;
+  font: 500 1rem/40px "Roboto";
 }
 
 .lojas-titulo {
@@ -90,12 +90,12 @@
 
 .lojas-rodape {
   color: var(--cor-11);
-  font: 600 1rem/40px "Roboto", sans-serif;
+  font: 600 1rem/40px "Roboto";
 }
 
 .comissao-titulo {
   color: var(--cor-9);
-  font: 600 0.8rem/40px "Roboto", sans-serif;
+  font: 600 0.8rem/40px "Roboto";
 }
 
 @media (max-width: 1200px) {
@@ -103,7 +103,7 @@
     font-size: 3rem;
   }
   .saiba-mais {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .depoimento-descricao {
     font-size: 1.5rem;
