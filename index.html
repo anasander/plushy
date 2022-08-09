@@ -7,13 +7,15 @@
     <title>Plushy - Pelúcias Customizadas</title>
     <meta name="description" content="Somos profissionais quando o assunto é pelúcias customizadas. Nos mostre seu design e traremos à vida suas melhores criações.">
 
-    <link rel="preload" href="/css/style.css" as="style">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preload" href="/css/style.min.css" as="style">
+    <link rel="stylesheet" href="/css/style.min.css">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
@@ -41,12 +43,12 @@
         <main class="introducao-bg">
             <div class="introducao container">
                 <div>
-                    <img src="/img/geral/img-intro.svg" width="660" height="532" alt="imagem animais fofos">
+                    <img class="fadeInLeft" data-anime="200" src="/img/geral/img-intro.svg" width="660" height="532" alt="imagem animais fofos">
                 </div>
                 <div class="introducao-conteudo">
-                    <h1 class="titulo">Suas pelúcias do seu jeito</h1>
-                    <p class="subtitulo">Somos profissionais quando o assunto é pelúcias customizadas. Nos mostre seu design e traremos à vida suas melhores criações.</p>
-                    <a class="botao" href="./comissoes.html">Crie com a gente</a>
+                    <h1 class="titulo fadeInRight" data-anime="400">Suas pelúcias do seu jeito</h1>
+                    <p class="subtitulo fadeInRight" data-anime="600">Somos profissionais quando o assunto é pelúcias customizadas. Nos mostre seu design e traremos à vida suas melhores criações.</p>
+                    <a class="botao fadeInRight" data-anime="800" href="./comissoes.html">Crie com a gente</a>
                 </div>
             </div>
         </main>
@@ -198,6 +200,7 @@
         </div>
     </footer>
 
+    <script src="/simple-anime.js"></script>
     <script src="/script.js"></script>
 </body>
 

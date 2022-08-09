@@ -10,3 +10,26 @@ function ativarLink(link) {
 }
 
 links.forEach(ativarLink);
+
+// GALERIA DE IMAGENS
+const galeria = document.querySelectorAll(".pelucia-imagens img");
+const galeriaContainer = document.querySelector(".pelucia-imagens");
+
+function trocarImagem(event) {
+  const img = event.currentTarget;
+  const media = matchMedia("(min-width: 476px)").matches;
+  if (media) {
+    galeriaContainer.prepend(img);
+  }
+}
+
+function eventosGaleria(img) {
+  img.addEventListener("click", trocarImagem);
+}
+
+galeria.forEach(eventosGaleria);
+
+// ANIMAÇÃO
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
