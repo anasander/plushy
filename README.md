@@ -6,7 +6,7 @@
 
 <h2>Project Description</h2>
 <p>Design, HTML, CSS and JavaScript of a custom plushies website.</p>
-<p>You can see the repository in action at: <a href='https://plushy.vercel.app/'>Plushy</a></p>
+<p>You can see the repository in action at: <a href='https://plushy.vercel.app/'>Plushy</a>.</p>
 </br>
 
 ![plushy](https://user-images.githubusercontent.com/108422924/231242633-6b88d3e3-be48-4e54-b6ae-27d1c9bd3177.png)
